@@ -1,0 +1,146 @@
+.homeBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-inline: 1rem;
+}
+
+.homeBlock h2 {
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 3.5rem;
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+.homeBlock h2 span:first-child {
+  animation: digital-slide-in 1.4s ease-out;
+  transform: translateX(-24px);
+}
+.homeBlock h2 span:last-child {
+  font-size: 3.8rem;
+  animation: impact-slide-in 2.1s ease-out;
+  transform: translateX(60px);
+}
+
+.homeBlock p {
+  font-size: 1.2rem;
+  text-align: center;
+  /* animation: fade-in 2.2s ease-in; */
+  margin-top: 0.4rem;
+}
+
+.homeButtonBlock {
+  display: flex;
+  gap: 6.8rem;
+  align-items: center;
+  margin-top: 1.5rem;
+  animation: fade-in 6.8s ease-out;
+}
+.homeButtonBlock button {
+  font-size: 1.2rem;
+}
+.homeButtonBlock button:last-child {
+  border: none;
+  background-color: var(--button);
+}
+
+.aboutSection {
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+  .aboutSection {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .homeBlock {
+    height: 80dvh;
+    justify-content: center;
+  }
+
+  .homeBlock h2 {
+    line-height: 2.8rem;
+    margin-top: 0;
+  }
+
+  .homeBlock h2 > span:first-child {
+    font-size: 1.8rem;
+    animation-duration: 3s;
+  }
+  .homeBlock h2 > span:last-child {
+    font-size: 1.8rem;
+    transform: translateX(45px);
+    animation: fade-in 3s ease-in-out;
+    margin-bottom: 1rem;
+  }
+
+  .homeBlock p {
+    font-size: 1.3rem;
+    animation: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+  }
+
+  .homeButtonBlock {
+    gap: 1.8rem;
+    animation: none;
+    flex-direction: column;
+    animation: fade-in 6.3s ease-in-out;
+  }
+  .homeButtonBlock button {
+    width: 230px;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+
+@keyframes digital-slide-in {
+  from {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(30px);
+  }
+  to {
+    transform: translateX(-24px);
+  }
+}
+
+@keyframes impact-slide-in {
+  from {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(80px);
+  }
+  to {
+    transform: translateX(60px);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    filter: opacity(0%);
+  }
+  50% {
+    filter: opacity(0%);
+  }
+  80% {
+    filter: opacity(0%);
+  }
+
+  to {
+    filter: opacity(100%);
+  }
+}

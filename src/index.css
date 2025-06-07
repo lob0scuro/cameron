@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --black: #0e2525;
+  --primary: #86a9ac;
+  --secondary: #71999c;
+  --button: #577c7c;
+  --white: #d5deda;
+
+  --font: "Noto Sans", sans-serif;
+  --scriptFont: "Birthstone", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.scripted {
+  font-family: var(--scriptFont);
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+body,
+html {
+  background-color: var(--black);
+  color: var(--white);
+  width: 100svw;
+  height: 100dvh;
+  font-family: var(--font);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header,
+footer {
+  width: 100%;
+  min-height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1rem;
+}
+
+header h1 {
+  text-shadow: -1.2px 1.4px 4px var(--secondary);
+}
+
+header nav {
+  display: flex;
+  gap: 18px;
+}
+header nav a {
+  font-size: 1.3rem;
+}
+header nav a.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+header {
+  font-family: var(--scriptFont);
+}
+
+#container {
+  flex: 1;
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  font-size: 0.6rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  align-items: center;
+}
+
+footer h5 {
+  font-size: 1.5rem;
+  font-family: var(--scriptFont);
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    box-shadow: 0 3px 18px var(--secondary);
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    justify-self: center;
+  }
+  header nav {
+    display: none;
+  }
+
+  footer {
+    background-color: var(--button);
+    color: var(--black);
+    min-height: 10rem;
+    margin-top: 4rem;
+  }
+}
