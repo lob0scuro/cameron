@@ -3,7 +3,11 @@ import Button from "../../components/Button";
 
 const Contact = () => {
   return (
-    <form className={styles.contactForm}>
+    <form
+      action="mailto:kamrin717@gmail.com"
+      method="post"
+      className={styles.contactForm}
+    >
       <h1 className="scripted">Contact Me</h1>
       <div>
         <label htmlFor="name">Name</label>

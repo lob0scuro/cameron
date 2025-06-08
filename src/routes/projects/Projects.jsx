@@ -12,10 +12,11 @@ const Projects = () => {
           <div>
             <h3>bluTape/</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-              deleniti molestiae distinctio pariatur quae odio, magnam
-              reiciendis dicta, velit, commodi cupiditate quisquam minima quis
-              iusto!
+              bluTape is a full-stack CRUD application designed to streamline
+              inventory management and improve communication between shop
+              technicians and office staff. The front end is built with React,
+              the back end with Flask, and it uses MySQL for data storage. The
+              app is deployed on a Linode server using NGINX and Gunicorn.
             </p>
             <Link className={styles.learnMoreLink}>Learn more</Link>
           </div>
@@ -25,10 +26,12 @@ const Projects = () => {
           <div>
             <h3>Eastwood Legacy 2025</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-              deleniti molestiae distinctio pariatur quae odio, magnam
-              reiciendis dicta, velit, commodi cupiditate quisquam minima quis
-              iusto!
+              A lightweight web app built with raw HTML, CSS, and vanilla
+              JavaScript. The form uploads user-submitted images directly to
+              Dropbox using its API, integrated via the Node.js SDK and deployed
+              as a Netlify serverless function. Designed to support Eastwood
+              Pentecostal Church’s 75th anniversary, the app enabled seamless
+              photo collection for a commemorative presentation.
             </p>
             <Link className={styles.learnMoreLink}>Learn more</Link>
           </div>
@@ -38,10 +41,10 @@ const Projects = () => {
           <div>
             <h3>Hill's A/C Repair</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-              deleniti molestiae distinctio pariatur quae odio, magnam
-              reiciendis dicta, velit, commodi cupiditate quisquam minima quis
-              iusto!
+              A clean, responsive landing page built with React for a local
+              residential HVAC company. This project focused on layout, design
+              consistency, and user experience, aiming to deliver a professional
+              web presence that builds trust and encourages customer inquiries.
             </p>
             <Link className={styles.learnMoreLink}>Learn more</Link>
           </div>

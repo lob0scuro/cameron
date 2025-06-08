@@ -5,6 +5,7 @@
   align-items: center;
   height: 100%;
   padding-inline: 1rem;
+  margin-bottom: 4rem;
 }
 
 .homeBlock h2 {
@@ -79,7 +80,7 @@
   .homeBlock h2 > span:last-child {
     font-size: 1.8rem;
     transform: translateX(45px);
-    animation: fade-in 3s ease-in-out;
+    animation: fade-in 3.4s ease-in-out;
     margin-bottom: 1rem;
   }
 
