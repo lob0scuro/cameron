@@ -1,0 +1,11 @@
+.socialBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.socialIcon {
+  color: var(--white);
+  font-size: 1.5rem;
+}

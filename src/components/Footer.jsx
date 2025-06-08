@@ -1,4 +1,4 @@
-import React from "react";
+import SocialBar from "./SocialBar";
 
 const Footer = () => {
   return (
@@ -9,6 +9,9 @@ const Footer = () => {
         <p>Database Designer</p>
         <p>Problem Solver</p>
       </div>
+      <br />
+      <br />
+      <SocialBar />
     </footer>
   );
 };

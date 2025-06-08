@@ -84,9 +84,22 @@ h2 {
   color: var(--primary);
 }
 
+.stackIcons {
+  flex: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-inline: 1rem;
+  padding-bottom: 1rem;
+}
+.stackIcons * {
+  font-size: 1.5rem;
+  color: var(--button);
+}
+
 @media screen and (max-width: 450px) {
   .aboutMainHeader {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
   }
 
   .aboutHead {
@@ -95,9 +108,12 @@ h2 {
   }
   .aboutHead p {
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .aboutStack {
     border-radius: 8px 8px 8px 8px;
+    margin-top: 0;
   }
 }

@@ -4,6 +4,18 @@ import Button from "../../components/Button";
 import clsx from "clsx";
 import Typewriter from "../../components/Typewriter";
 import { Link } from "react-router-dom";
+import SocialBar from "../../components/SocialBar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCss3Alt,
+  faHtml5,
+  faJs,
+  faLinux,
+  faPython,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+
 const Home = () => {
   return (
     <>
@@ -65,11 +77,25 @@ const Home = () => {
             pamphlets, I build solutions that just work. I value speed, and
             simplicity, and systems that scale quietly behind the scenes.
           </p>
+          <div>
+            <p>Follow me on social media</p>
+            <p>let's connect!</p>
+          </div>
+          <SocialBar />
         </div>
         <div className={aboutStyles.aboutStack}>
           <h2 className={clsx("scripted", [aboutStyles.stackHeader])}>
             Tech Stack
           </h2>
+          <div className={aboutStyles.stackIcons}>
+            <FontAwesomeIcon icon={faPython} />
+            <FontAwesomeIcon icon={faJs} />
+            <FontAwesomeIcon icon={faDatabase} />
+            <FontAwesomeIcon icon={faHtml5} />
+            <FontAwesomeIcon icon={faCss3Alt} />
+            <FontAwesomeIcon icon={faReact} />
+            <FontAwesomeIcon icon={faLinux} />
+          </div>
           <div>
             <h4>Frontend</h4>
             <ul>
@@ -102,7 +128,7 @@ const Home = () => {
             </ul>
           </div>
           <div>
-            <h4>Integration Tools</h4>
+            <h4>Integration</h4>
             <ul>
               <li>Google Sheets API</li>
               <li>Google Docs API</li>
@@ -130,7 +156,7 @@ const Home = () => {
               className={clsx("scripted", [aboutStyles.contactLink])}
               to="/contact"
             >
-              Let's talk!
+              Let's talk!&nbsp;
             </Link>{" "}
             I'm open to collaborations, freelance projects, or just a good
             conversation about solving problems with code.
