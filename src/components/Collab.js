@@ -8,12 +8,16 @@ const Collab = () => {
   return (
     <>
       <div className={styles.collabBlock1}>
-        <h1 className={clsx("scripted", styles.collabHeader)}>Let's Collab!</h1>
+        <h1 className={clsx("scripted", styles.collabHeader)}>
+          Let&apos;s Collab!
+        </h1>
         <p className={styles.collabTextBlock}>
-          If you're looking for someone who can connect the dots between design,
-          data, and deployment -{" "}
-          <span className={styles.scriptThis}>Let's talk!&nbsp;&nbsp;</span> I'm
-          open to collaborations, freelance projects, or just a good
+          If you&apos;re looking for someone who can connect the dots between
+          design, data, and deployment -{" "}
+          <span className={styles.scriptThis}>
+            Let&apos;s talk!&nbsp;&nbsp;
+          </span>{" "}
+          I&apos;m open to collaborations, freelance projects, or just a good
           conversation about solving problems with code.
         </p>
       </div>
