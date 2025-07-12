@@ -14,9 +14,9 @@ const Projects = () => {
       {/* <h1>Projects</h1> */}
       <div className="btn-block-stack">
         <Button title={"bluTape"} onClick={() => handleRouting("bluTape")} />
-        <Button title={"Legacy"} onClick={() => handleRouting("Legacy")} />
+        <Button title={"Legacy"} onClick={() => handleRouting("legacy")} />
         <Button title={"epcTeams"} onClick={() => handleRouting("epcTeams")} />
-        <Button title={"Stripe"} onClick={() => handleRouting("Stripe")} />
+        <Button title={"Stripe"} onClick={() => handleRouting("stripe")} />
       </div>
     </>
   );
