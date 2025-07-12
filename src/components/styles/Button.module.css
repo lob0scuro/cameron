@@ -1,0 +1,25 @@
+.btn {
+  background-color: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+  padding: 0.6rem 2.5rem;
+  border-radius: 8px;
+}
+.btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+  transition: all 0.5s ease-in-out;
+}
+
+.secondaryBtn {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+}
+
+.secondaryBtn:hover {
+  background-color: var(--primary);
+  color: var(--black);
+  transition: all 0.5s ease;
+}

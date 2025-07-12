@@ -1,0 +1,24 @@
+.aboutHeader {
+  font-size: 2rem;
+}
+
+.aboutTextBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.aboutTextBlock p {
+  text-align: center;
+  text-wrap: balance;
+}
+
+.aboutTextBlock div.aboutSocialMedia {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

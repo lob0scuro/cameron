@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+h1.myName {
+  font-size: 2rem;
+  animation: logo 10s ease-in-out;
+  position: absolute;
+}
+
+@keyframes logo {
+  0% {
+    filter: opacity(0);
+  }
+  80% {
+    filter: opacity(0);
+  }
+  100% {
+    filter: opacity(1);
+  }
+}

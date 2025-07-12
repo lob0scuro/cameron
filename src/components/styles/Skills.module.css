@@ -1,0 +1,41 @@
+.skillsHeader {
+  font-size: 4rem;
+}
+
+.skillsStack {
+  display: grid;
+  grid-template-areas:
+    "a b"
+    "c d"
+    "e e";
+  width: 100%;
+  gap: 3rem;
+  padding-block: 1rem;
+}
+
+.skillsStack ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+.skillsStack ul h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: var(--scriptFont);
+}
+
+ul.frontend {
+  grid-area: a;
+}
+ul.backend {
+  grid-area: b;
+}
+ul.devops {
+  grid-area: c;
+}
+ul.integration {
+  grid-area: d;
+}
+ul.design {
+  grid-area: e;
+}
