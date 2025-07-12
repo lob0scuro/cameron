@@ -5,7 +5,7 @@ import SocialBar from "./SocialBar";
 const About = () => {
   return (
     <>
-      <h1 className={styles.aboutHeader}>Hey, I'm Cameron</h1>
+      <h1 className={styles.aboutHeader}>Hey, I&apos;m Cameron</h1>
       <div className={styles.aboutTextBlock}>
         <p>
           I&apos;m a full-stack web developer who blends creativity with
@@ -31,7 +31,7 @@ const About = () => {
         </p>
         <div className={styles.aboutSocialMedia}>
           <p>Follow me on social media</p>
-          <p>Let's connect!</p>
+          <p>Let&apos;s connect!</p>
           <br />
           <SocialBar />
         </div>
