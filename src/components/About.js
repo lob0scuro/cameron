@@ -22,7 +22,7 @@ const About = () => {
           body.
         </p>
         <p>
-          So whether it&apos;s automating weekly schedules, handling uploads via
+          Whether it&apos;s automating weekly schedules, handling uploads via
           Netlify functions and Dropbox, or designing clean, branded pamphlets,
           I build solutions that just work. I value speed, and simplicity, and
           systems that scale quietly behind the scenes.
