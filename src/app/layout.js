@@ -18,6 +18,10 @@ const birthstone = Birthstone({
 export const metadata = {
   title: "Cameron Lopez",
   description: "Portfolio website for Cameron Lopez",
+  icons: [
+    { rel: "icon", url: "/favicon.svg", type: "image/svg+xml" },
+    { rel: "apple-touch-icon", url: "/images/cameron-logo.png" },
+  ],
 };
 
 export default function RootLayout({ children }) {
