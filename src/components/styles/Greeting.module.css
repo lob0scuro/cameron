@@ -7,11 +7,11 @@
 
 h2.tools {
   transform: translateX(-2rem);
-  animation: slide-in 3.4s ease-in-out;
+  animation: slide-in 2.8s ease-in-out;
 }
 h2.impact {
   transform: translateX(3rem);
-  animation: fade-in 4s ease-in;
+  animation: fade-in 3s ease-in;
 }
 
 .affectBlock h2 span {
@@ -32,7 +32,7 @@ h2.impact {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  animation: fade-in 8.8s ease-in-out;
+  animation: fade-in 7s ease-in-out;
 }
 
 @keyframes slide-in {

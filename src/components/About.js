@@ -19,12 +19,10 @@ const About = () => {
           out with my daughter, helping out at my church or finding a way to get
           active. I like to swim, run and do weight training. I&apos;m all about
           building relationships, nourishing the soul and strengthening the
-          body. One of the lifelong struggles I enjoy taking head on is finding
-          the work-life balance and building others up as we all push this
-          boulder up our hill.
+          body.
         </p>
         <p>
-          Whether it&apos;s automating weekly schedules, handling uploads via
+          So whether it&apos;s automating weekly schedules, handling uploads via
           Netlify functions and Dropbox, or designing clean, branded pamphlets,
           I build solutions that just work. I value speed, and simplicity, and
           systems that scale quietly behind the scenes.

@@ -27,7 +27,7 @@ const Greeting = () => {
         <Typewriter
           text="Helping teams, churches, and creators do more with custom code."
           speed={50}
-          delay={4200}
+          delay={3000}
         />
       </div>
       <div className={styles.buttonBlock}>
