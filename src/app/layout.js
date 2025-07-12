@@ -20,7 +20,7 @@ export const metadata = {
   description: "Portfolio website for Cameron Lopez",
   icons: [
     { rel: "icon", url: "/favicon.svg", type: "image/svg+xml" },
-    { rel: "apple-touch-icon", url: "/images/cameron-logo.png" },
+    { rel: "apple-touch-icon", url: "/images/cameron-logo-dark.png" },
   ],
 };
 
