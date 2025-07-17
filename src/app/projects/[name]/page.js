@@ -9,7 +9,7 @@ const Project = () => {
   return (
     <div>
       <p>{name !== "BUj" && name}</p>
-      {name === "BUj" && <Incoming />}
+      <div>{name === "BUj" && <Incoming />}</div>
     </div>
   );
 };
