@@ -17,6 +17,7 @@ const Projects = () => {
         <Button title={"Legacy"} onClick={() => handleRouting("legacy")} />
         <Button title={"epcTeams"} onClick={() => handleRouting("epcTeams")} />
         <Button title={"Stripe"} onClick={() => handleRouting("stripe")} />
+        <Button title={"BUj"} secondary onClick={() => handleRouting("BUj")} />
       </div>
     </>
   );
