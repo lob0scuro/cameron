@@ -19,7 +19,7 @@ const Incoming = () => {
         type="text"
         value={total}
         onChange={(e) => setTotal(e.target.value)}
-        className="bg-white rounded-lg h-10 text-black px-2 w-40 text-center"
+        className="bg-white rounded-lg h-10 text-black px-2 w-40 text-center mb-5"
       />
       <div className="flex flex-col items-start gap-2 mt-5">
         <h3 className="font-bold">Tithing: {formatter.format(Tithes)}</h3>

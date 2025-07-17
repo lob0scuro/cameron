@@ -8,7 +8,7 @@ const Project = () => {
   const { name } = useParams();
   return (
     <div>
-      <p>{name}</p>
+      <p>{name !== "BUj" && name}</p>
       {name === "BUj" && <Incoming />}
     </div>
   );
